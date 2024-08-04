@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./img/wallpaperG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body , html{
+    width: auto;
+}
+
+a{
+    color: rgb(245, 147, 0);
+    text-decoration: none;
+}
+
+span{
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg ,black , rgb(255, 38, 0));
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+nav > img{
+    width: 90px;
+    border-radius:50%;
+}
+
+nav > h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0px 30px;
+}
+
+.box{
+    margin: 0px;
+    width: auto;
+    height: 100%;
+}
+
+main > h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 50vw;
+}
+
+.jbox{
+    padding: 10px 25px;
+}
+
+.jbox > a > h2{
+    font-size: 1.3rem;
+}
+
+.box > a{
+    font-size: 2rem;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0px 25px;
+    padding: 5px 10px;
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+
+.box > p{
+    padding: 30px 25px;
+}
+
+@media screen and (max-width: 533px){
+
+    body{
+        background-image: url(./img/wallpaperP.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height:auto;
+    }
+    
+    main{
+        height: 100%;
+    }
+
+    main > h1{
+        background-color: transparent;
+    }
+
+    nav{
+        background-color: rgba(255, 30, 0, 0.452);
+        background-image: none;
+    }
+    
+    nav > h1{
+        font-size: 1.5rem;
+    }
+    nav > img{
+        border: 3px solid rgb(0, 0, 0);
+        width: 60px;
+    }
+    .jbox > a > h2{
+        font-size: 2.5rem;
+    }
+    
+    .box > a{
+        font-size: 1.3rem;
+    }
+
+    .box > h1{
+        padding: 10px 25px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        width: auto;
+    }
+}
